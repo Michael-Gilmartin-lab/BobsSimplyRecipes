@@ -1,0 +1,149 @@
+
+nav {
+    margin: 5px;
+    left: 1px;
+    width: 200px;
+    font-family: arial;
+    position: absolute;
+}
+
+nav li
+{
+    margin: 10px;
+    border: 2px solid #333;
+    padding: 2px;
+    background-color: #770000;		
+}	
+
+nav ul
+{
+    list-style-type: none;
+    margin: 1px;
+    padding: 10px; 
+    text-align: center;
+}
+body
+{
+    width:70%;
+	color: #FFF;
+	background-color: #bf4747;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:verdana, elephant, arial;
+	text-align:center;
+	border-radius: 10px;
+	box-shadow: 8px 8px 5px 10px #050505
+}
+
+a.norm:link 
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.norm:hover 
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.norm:active 
+{
+    color: white;
+    text-decoration: none;
+}
+
+h2 
+{
+    font-size:20px;
+    margin: 30px;
+}
+
+p, ul 
+{
+    margin:30px;
+    text-align: left;
+}
+
+
+
+.picture_right
+{
+    float:right;
+    margin-right: 10px;
+}
+
+
+
+article
+{
+    width: 90%;
+    margin-right: 15px;
+}
+
+
+iframe 
+{
+    border: 5px;
+}
+
+footer p
+{
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;
+}
+
+a.onpage:visited 
+{
+    color: yellow;
+
+}
+
+a.onpage:link 
+{
+    color: yellow;
+    text-decoration: none;
+}
+
+a.onpage:hover 
+{
+    color: yellow; 
+    border-width: 1px;
+    text-decoration: underline;
+}
+
+a.onpage:active 
+{
+    color: yellow;
+    text-decoration: none
+}
+
+
+.nav1 {
+    
+    color: orange;
+    text-decoration: none;
+
+}
+
+#active {
+    color: aqua
+}
+
+
+
+
+
+.mainImages {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+ol li{
+    	text-align:left;
+    
+}
+
