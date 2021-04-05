@@ -33,27 +33,9 @@ body
 	font-family:verdana, arial;
 	text-align:center;
 	border-radius: 10px;
-    box-shadow: 8px 8px 5px 10px #050505
-    
-	
-}
+    box-shadow: 8px 8px 5px 10px black;
+    background-image: url(../images/background.jpg)
 
-a.norm:link 
-{
-    color: white;
-    text-decoration: none;
-}
-
-a.norm:hover 
-{
-    color: white;
-    text-decoration: none;
-}
-
-a.norm:active 
-{
-    color: white;
-    text-decoration: none;
 }
 
 h2 
@@ -123,7 +105,7 @@ a.onpage:active
 }
 
 
-.nav1 {
+.menu {
     
     color: orange;
     text-decoration: none;
@@ -135,14 +117,13 @@ a.onpage:active
 }
 
 
-
-
-
 .mainImages {
     list-style-type: none;
     text-align: center;
     margin-bottom: 10px;
     text-decoration: none;
+    text-decoration-color: white;
+    color: white;
 }
 
 ol li{
@@ -150,3 +131,65 @@ ol li{
     
 }
 
+
+form {
+    padding: 1em;
+    color: #000;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+
+
+
+.mainForm {
+    
+     float: left;
+    width: 200px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+input {
+     
+    width: 300px;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+.required {
+    font-weight: bold;
+    color: orangered;
+}
+
+
+
+.col_detail {
+    column-count: 2;
+    column-rule: 1px solid red;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a {
+  color: whitesmoke;
+}
