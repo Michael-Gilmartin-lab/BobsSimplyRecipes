@@ -56,6 +56,7 @@ p, ul
 {
     float:right;
     margin-right: 10px;
+    padding-right: 8%
 }
 
 
@@ -178,11 +179,11 @@ input {
 }
 
 a:link {
-  color: white;
+  
   text-decoration: none;
 }
 a:active {
-  color: white;
+  
   text-decoration: underline;
 }
 
@@ -192,4 +193,24 @@ a:hover {
 }
 a {
   color: whitesmoke;
+}
+
+table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menufooter {
+    padding: 5px;
+}
+
+.footercopyright {
+    text-align: center
 }
